@@ -121,8 +121,11 @@
 <p><a href="http://mde.tw/cad2020/downloads/Solidworks%20%E9%9B%B6%E4%BB%B6%E7%B9%AA%E5%9C%96%E7%B7%B4%E7%BF%922.pdf">http://mde.tw/cad2020/downloads/Solidworks%20%E9%9B%B6%E4%BB%B6%E7%B9%AA%E5%9C%96%E7%B7%B4%E7%BF%922.pdf</a></p>
 <p></p>
 <p></p>
-<h1>Engineering 工程</h1>
-<br/><a href="https://en.wikipedia.org/wiki/Engineer">Engineer</a> 工程師<a href="https://en.wikipedia.org/wiki/Engineer"></a>
+<p><br/><br/><br/><br/><br/></p>
+<h1>Engineering</h1>
+<p></p>
+<h2>Engineering 工程</h2>
+<p><br/><a href="https://en.wikipedia.org/wiki/Engineer">Engineer</a><span> 工程師</span></p>
 <p>Engineers, as practitioners of engineering, are professionals who invent, design, analyze, build and test machines, complex systems, structures, gadgets and materials to fulfill functional objectives and requirements while considering the limitations imposed by practicality, regulation, safety and cost.</p>
 <p><span>工程師，作為工程從業者，是專業人員，他們在研究實用性，法規，安全性和成本的限制的同時，發明，設計，分析，建造和測試機器，複雜的系統，結構，小工具和材料，以實現功能目標和要求。</span></p>
 <p></p>
@@ -183,8 +186,7 @@
 <p><img alt="" height="663" src="/images/flowchart_of_the_prototyypical_mechanical_design_process.png" width="923"/></p>
 <p><span>cited from Figure 2.4 - Flowchart of the prototypical mechanical design process (</span><span>"An Introduction to Mechanical Engineering, Third Edition Jonathan Wickert and Kemper E. Lewis", pp. 41, 2013)</span></p>
 <p><span><span>引用自圖2.4-原型機械設計過程的流程圖（</span><span><span><span>“機械工程概論，第三版Jonathan Wickert和Kemper E. Lewis”，2013年，第41頁）</span></span></span></span></p>
-<p><span><span><span><span></span></span></span></span></p>
-<h2>Terminology 術語</h2>
+<p><span><span><span><span></span></span></span></span></p><h2>Terminology 術語</h2>
 <p><span><a href="https://en.wikipedia.org/wiki/Entrepreneurship">Entrepreneurship</a> 創業精神</span></p>
 <p><span><a href="http://acqnotes.com/acqnote/tasks/requirements-development-steps">Requirements Development</a><span><span> </span>(</span><a href="http://mde.tw/cad2020/downloads/Requirements%20DevelopmentRequirements%20Development%20Steps.pdf">Requirements DevelopmentRequirements Development Steps.pdf</a><span>)</span></span></p>
 <p><span><span>需求開發(Requirements DevelopmentRequires Development Steps.pdf)</span></span></p>
@@ -378,9 +380,9 @@ set GIT_SSH=%Disk%:\putty\plink.exe
 <div class="line number1 index0 alt2"></div>
 <div class="line number1 index0 alt2"><span>*完成後請測試推送，成功使用SSH推送後，倉儲的SSH頁面的鑰匙會變成綠色的，並在下方顯示推送日期</span></div>
 <div class="line number1 index0 alt2"></div>
-<h1 class="line number1 index0 alt2">錯誤排除</h1>
+<h1>錯誤排除</h1>
 <div class="line number1 index0 alt2">
-<h2>cmsimde錯誤</h2>
+<h2>cmsimde 錯誤</h2>
 <p>github 送上去的資料沒有綠勾，cmsimde開不起來，要刪除cmsimde重新安裝。</p>
 <ol>
 <li>Delete the relevant section from the<span> </span><code>.gitmodules</code><span> </span>file.</li>
@@ -418,4 +420,18 @@ set GIT_SSH=%Disk%:\putty\plink.exe
 <p>git clone --recurese-submadules 網址</p>
 <p>git remote add gitlab</p>
 <p>git push gitlab 網址</p>
+<p></p><h2>cmsimde 丟失</h2>
+<p>因不知為何推送時出現</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">fatal: could not parse HEAD</pre>
+<p>然後資料夾整個cmsimde消失<br/><img alt="" height="320" src="/images/999.PNG" width="600"/></p>
+<p></p>
+<h4>解決方法</h4>
+<p>重新clone倉儲到資料夾</p>
+<p>並在cmd要提交時</p>
+<p>鍵入</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">git fetch</pre>
+<p>幫助找回丟失檔案</p>
+<p>就能順利提交推送</p>
+<p></p><h1>評分與心得</h1>
+<p>60</p>
 </div>
